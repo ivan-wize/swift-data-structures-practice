@@ -18,9 +18,6 @@ if let unwrappedString = optionalString {
     print("optionalString is nil")
 }
 
-// Force unwrapping (use cautiously!)
-print(optionalString!) // Unsafe if optionalString is nil, can cause a runtime crash
-
 // MARK: - Functions
 // Basic function
 func greet(name: String) -> String {
